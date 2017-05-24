@@ -1,3 +1,0 @@
-#!/bin/bash
-cd /home/ubuntu/CodeDeployTestApp
-http-server -p 12629
