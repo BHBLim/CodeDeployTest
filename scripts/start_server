@@ -1,4 +1,3 @@
 #!/bin/bash
-echo "Asdf" >> /home/ubuntu/touched
-# dt=$(date)
-# echo $dt $HOSTNAME >> /home/ubuntu/touched
+cd /home/ubuntu/CodeDeployTestApp
+http-server -p 12629
