@@ -1,4 +1,4 @@
 #!/bin/bash
 touch /home/ubuntu/touched
-dt=$(date)
-echo $dt $HOSTNAME >> /home/ubuntu/touched
+# dt=$(date)
+# echo $dt $HOSTNAME >> /home/ubuntu/touched
