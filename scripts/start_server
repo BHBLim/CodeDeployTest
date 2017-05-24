@@ -1,4 +1,2 @@
 #!/bin/bash
 touch /home/ubuntu/touched
-service httpd start
-
