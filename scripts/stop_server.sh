@@ -2,6 +2,6 @@
 cd /home/ubuntu/CodeDeployTestApp
 isExistApp=`pgrep node`
 if [[ -n  $isExistApp ]]; then
-    kill "$isExistApp"
+    kill $isExistApp
     echo "Killed node server at $(date) " >> codeDeploy.log
 fi
