@@ -1,5 +1,5 @@
 #!/bin/bash
-isExistApp = `pgrep node`
+cd /home/ubuntu/CodeDeployTestApp
 echo isExistApp >> codeDeploy.log
 if [[ -n  $isExistApp ]]; then
     kill isExistApp
