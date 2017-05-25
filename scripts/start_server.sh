@@ -2,5 +2,3 @@
 # help
 cd /home/ubuntu/CodeDeployTestApp
 touch testfile
-http-server -p 12629 &
-exit 0
